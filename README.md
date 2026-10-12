@@ -12,15 +12,18 @@ For Mac
 
 - Return to the AliExpress listing. Scroll through the item-selection gallery and open the enlarged-image view if needed.
 
-- Click the extensions icon in Chrome, select AliExpress Image Extractor, then click Extract images and make ZIP.
+- Click the extensions icon in Chrome, select AliExpress Image Extractor, then click "Extract images and make ZIP".
 
-Useful things in HTML:
+<img width="338" height="214" alt="Screenshot 2026-10-11 at 8 44 46 PM" src="https://github.com/user-attachments/assets/facb525d-54f9-40af-8c07-1561db60b5c8" />
+
+**Useful things in HTML:** 
 
 Image element: `img.magnifier--image--RM17RL2`
 
 Image container: `div.image-view-v2--previewWrap--lICzhlN`
 
 Image URLs: Each image has a different filename, even though the HTML classes are the same.
+
 
 - This version should click each thumbnail, wait for the src to change, collect the URL, and download all the images into one ZIP. 
 - This version looks for clickable gallery elements, captures the enlarged image URLs as the gallery changes, and builds the ZIP locally.
@@ -32,6 +35,9 @@ Feel free to modify this. After saving file changes:
 - Click the reload icon on your extension.
 - Return to the listing and refresh it.
 - Open the gallery and click the extension button.
+
+After allowed to Download ZIP:
+<img width="274" height="242" alt="Screenshot 2026-10-11 at 8 42 31 PM" src="https://github.com/user-attachments/assets/58e53fa8-f977-4982-8064-a834ca96333a" />
 
 ## Please note: 
 
